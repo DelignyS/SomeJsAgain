@@ -6273,9 +6273,8 @@ console.log(weEarnMoreFromMales);
 
 const usersWithAtLeast75Euros = users.filter(user => user.revenue >= 7500);
 
-console.log("//La réponses peux s'afficher par 100aine");
+console.log("//La réponses peux s'afficher par 100aine, les users avec au moins 75€");
 console.log(usersWithAtLeast75Euros);
-
 
 
 const first100UsersById = users.filter(user => user.id <= 100);
